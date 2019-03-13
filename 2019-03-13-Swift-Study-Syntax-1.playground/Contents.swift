@@ -94,3 +94,34 @@ func leapYearCalculator (year: Int) -> Bool {
 
 leapYearCalculator(year: 2016)
 leapYearCalculator(year: 2100)
+
+
+
+// 자연수 하나를 입력받아 그 수의 Factorial 을 구하는 함수 (팩토리얼 :  5! = 5 x 4 x 3 x 2 x 1)
+
+func someNumber(max: Int) -> Int {
+    var increase = 1
+    var factorial = 1
+    repeat {
+        factorial *= increase
+        increase += 1
+    } while increase <= max
+    return factorial
+}
+
+someNumber(max: 3)
+
+
+
+// 자연수 두 개를 입력받아 첫 번째 수를 두 번째 수만큼 제곱하여 반환하는 함수 (2, 5 를 입력한 경우 결과는 2의 5제곱)
+
+func exponentiation(min: Int, max: Int) -> Int {
+    var answer = 1
+    
+    for _ in 1...max {
+        answer *= min
+    }
+    return answer
+}
+
+exponentiation(min: 3, max: 4)
