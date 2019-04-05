@@ -11,7 +11,7 @@ class Person {
     var residence: Residence?
 }
 // Person이라는 클래스를 정의
-// Residence 클래스를 상속받는 residence 변수
+// Residence 클래스를 옵셔널로 받는 residence 변수 -> var someThing: Int 처럼 Int 를 받는 것 처럼 Residence 클래스를 ? 를 사용해 옵셔널로 받음
 // Residence에 ? 를 보니 Residence는 옵셔널
 // 초기값을 안주었기 때문에 Person 타입의 인스턴스가 만들어질 경우 residence의 초기값은 nil
 
