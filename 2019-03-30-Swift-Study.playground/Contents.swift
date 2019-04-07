@@ -233,5 +233,60 @@ fibonacchi(inputNumber: 0)
  fibonacciNumber(number: 0)
 */
 
+func fibonacchi(inputNumber: Int) -> Int {
+    var max: Int = 3
+    var answer: Int = 0
+    var beforebeforeNum: Int = 0
+    var beforeNum: Int = 1
+    
+    if inputNumber == 1 { return 0 } else if  inputNumber == 2 { return 1 }
+    
+    while inputNumber >= max {
+        
+        answer = beforebeforeNum + beforeNum
+        
+        beforebeforeNum = beforeNum
+        beforeNum = answer
+        
+        max += 1
+    }
+    return answer
+}
 
+//결과 테스트
+
+ fibonacchi(inputNumber: 1)
+ fibonacchi(inputNumber: 2)
+ fibonacchi(inputNumber: 3)
+ fibonacchi(inputNumber: 4)
+
+
+
+// [6] - 100 이하의 자연수 중 3과 5의 공배수를 모두 출력하는 함수
+
+var tempSet: Set<Int> = []
+var tempSet2: Set<Int> = []
+var answerSet: Set<Int> = []
+
+
+func sameMulifly() {
+    let inputNumber = 100
+    
+    for i in 1...inputNumber {
+        if i % 3 == 0 {
+            tempSet.insert(i)
+        }
+    }
+    
+    for i in 1...inputNumber {
+        if i % 5 == 0 {
+            tempSet2.insert(i)
+        }
+    }
+    answerSet = tempSet.intersection(tempSet2)
+    print(answerSet.sorted())
+}
+
+
+sameMulifly()
 
