@@ -12,23 +12,32 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var textLabel: UILabel!
     
-    @IBOutlet var mySegControl: UISegmentedControl!
+//    @IBOutlet var mySegControl: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mySegControl.addTarget(self, action: #selector(segContStatement(_:)), for: .valueChanged)
+//        mySegControl.addTarget(self, action: #selector(segContStatement(_:)), for: .valueChanged)
     }
     
-    @objc func segContStatement(_ sender: UISegmentedControl){
-        
-        switch mySegControl.selectedSegmentIndex {
+//    @objc func segContStatement(_ sender: UISegmentedControl){
+//
+//        switch mySegControl.selectedSegmentIndex {
+//        case 0:
+//            textLabel.text = "First"
+//        default:
+//            textLabel.text = "Second"
+//        }
+//    }
+    
+    @IBAction func action(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
         case 0:
             textLabel.text = "First"
         default:
             textLabel.text = "Second"
         }
+        
     }
-    
 }
 

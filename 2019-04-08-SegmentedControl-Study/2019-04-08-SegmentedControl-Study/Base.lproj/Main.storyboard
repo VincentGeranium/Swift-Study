@@ -32,13 +32,15 @@
                                     <segment title="First"/>
                                     <segment title="Second"/>
                                 </segments>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="valueChanged" id="f7K-9a-xVj"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mySegControl" destination="nod-Jr-Ex8" id="8kJ-Og-n5F"/>
                         <outlet property="textLabel" destination="reT-a1-Lkc" id="dor-eo-4CE"/>
                     </connections>
                 </viewController>
