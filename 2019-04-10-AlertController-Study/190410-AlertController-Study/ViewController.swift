@@ -17,7 +17,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         enterButton.frame = CGRect(x: view.frame.width / 3, y: view.frame.height / 2, width: 150, height: 150)
         enterButton.setTitle("Enter", for: .normal)
         enterButton.titleLabel?.font = UIFont.systemFont(ofSize: 30) // UIFont(name: system, size: 30)
