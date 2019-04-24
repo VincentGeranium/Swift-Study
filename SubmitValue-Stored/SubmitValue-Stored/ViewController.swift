@@ -14,19 +14,32 @@ class ViewController: UIViewController {
     @IBOutlet var update: UILabel!
     @IBOutlet var interval: UILabel!
     
-    var paramEmail: String?
-    var paramUpdata: Bool?
-    var paramInterval: Double?
+//    var paramEmail: String?
+//    var paramUpdata: Bool?
+//    var paramInterval: Double?
     
     override func viewWillAppear(_ animated: Bool) {
-        if let resultEmail = paramEmail {
+//        if let resultEmail = paramEmail {
+//            email.text = resultEmail
+//        }
+//        if let resultUpdate = paramUpdata {
+//            update.text = resultUpdate == true ? "자동갱신" : "갱신하지않음"
+//        }
+//        if let resultInterval = paramInterval {
+//            interval.text = "\(Int(resultInterval)) 분마다"
+//        }
+        
+        // AppDelegate 객체의 인스턴스를 가져온다
+        let ad = UIApplication.shared.delegate as? AppDelegate
+        
+        if let resultEmail = ad?.paramEmail {
             email.text = resultEmail
         }
-        if let resultUpdate = paramUpdata {
+        if let resultUpdate = ad?.paramUpdate {
             update.text = resultUpdate == true ? "자동갱신" : "갱신하지않음"
         }
-        if let resultInterval = paramInterval {
-            interval.text = "\(Int(resultInterval)) 분마다"
+        if let resultInterval = ad?.paramInterval {
+            interval.text = "\(Int(resultInterval)) 분 마다"
         }
     }
 
