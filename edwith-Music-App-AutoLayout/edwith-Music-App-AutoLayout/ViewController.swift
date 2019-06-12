@@ -74,6 +74,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     func addViewsWithCode() {
         self.addPlayPauseButton()
+        self.addTimeLabel()
     }
     
     func addPlayPauseButton() {
@@ -106,6 +107,27 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         ratio.isActive = true
         
         self.playPauseButton = button
+    }
+    
+    func addTimeLabel() {
+        let timeLabel: UILabel = UILabel()
+        timeLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        timeLabel.textColor = .black
+        timeLabel.textAlignment = .center
+        timeLabel.font = UIFont.preferredFont(forTextStyle: .headline)
+        
+        let centerX: NSLayoutConstraint
+        centerX = timeLabel.centerXAnchor.constraint(equalTo: self.playPauseButton.centerXAnchor)
+        
+        let top: NSLayoutConstraint
+        top = timeLabel.topAnchor.constraint(equalTo: self.playPauseButton.bottomAnchor, constant: 8)
+        
+        centerX.isActive = true
+        top.isActive = true
+        
+        self.timeLabel = timeLabel
+        self.updateTimeLabelText(time: 0)
     }
     
     
