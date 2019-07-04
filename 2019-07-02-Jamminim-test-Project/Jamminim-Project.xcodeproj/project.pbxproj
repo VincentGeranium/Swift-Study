@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C2E21E22C89A8B00E1D188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C2E21D22C89A8B00E1D188 /* AppDelegate.swift */; };
+		20C2E22322C89A8B00E1D188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C2E22122C89A8B00E1D188 /* Main.storyboard */; };
+		20C2E22522C89A8B00E1D188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C2E22422C89A8B00E1D188 /* Assets.xcassets */; };
+		20C2E22822C89A8B00E1D188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C2E22622C89A8B00E1D188 /* LaunchScreen.storyboard */; };
+		20C2E23122C89C5D00E1D188 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C2E23022C89C5D00E1D188 /* MainViewController.swift */; };
+		20C2E23422C89C9700E1D188 /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C2E23322C89C9700E1D188 /* InstagramViewController.swift */; };
+		5C95DFFB0FDFEF0EAC1D8C66 /* Pods_Jamminim_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE9F194BD292B9EB072BCD1 /* Pods_Jamminim_Project.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13F8D7137EB31AF055850C58 /* Pods-Jamminim-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamminim-Project.debug.xcconfig"; path = "Target Support Files/Pods-Jamminim-Project/Pods-Jamminim-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		20C2E21A22C89A8B00E1D188 /* Jamminim-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jamminim-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C2E21D22C89A8B00E1D188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20C2E22222C89A8B00E1D188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20C2E22422C89A8B00E1D188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20C2E22722C89A8B00E1D188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20C2E22922C89A8B00E1D188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C2E23022C89C5D00E1D188 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		20C2E23322C89C9700E1D188 /* InstagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		2EE9F194BD292B9EB072BCD1 /* Pods_Jamminim_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jamminim_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		689D8A2A1136466111A2EC6C /* Pods-Jamminim-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamminim-Project.release.xcconfig"; path = "Target Support Files/Pods-Jamminim-Project/Pods-Jamminim-Project.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C2E21722C89A8B00E1D188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C95DFFB0FDFEF0EAC1D8C66 /* Pods_Jamminim_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B46FB60FD95D8C00B4E575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9F194BD292B9EB072BCD1 /* Pods_Jamminim_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20C2E21122C89A8B00E1D188 = {
+			isa = PBXGroup;
+			children = (
+				20C2E21C22C89A8B00E1D188 /* Jamminim-Project */,
+				20C2E21B22C89A8B00E1D188 /* Products */,
+				842CC01452B6B7FDD065723F /* Pods */,
+				09B46FB60FD95D8C00B4E575 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20C2E21B22C89A8B00E1D188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C2E21A22C89A8B00E1D188 /* Jamminim-Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C2E21C22C89A8B00E1D188 /* Jamminim-Project */ = {
+			isa = PBXGroup;
+			children = (
+				20C2E21D22C89A8B00E1D188 /* AppDelegate.swift */,
+				20C2E22122C89A8B00E1D188 /* Main.storyboard */,
+				20C2E22422C89A8B00E1D188 /* Assets.xcassets */,
+				20C2E22622C89A8B00E1D188 /* LaunchScreen.storyboard */,
+				20C2E22922C89A8B00E1D188 /* Info.plist */,
+				20C2E22F22C89C4100E1D188 /* VC */,
+			);
+			path = "Jamminim-Project";
+			sourceTree = "<group>";
+		};
+		20C2E22F22C89C4100E1D188 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				20C2E23022C89C5D00E1D188 /* MainViewController.swift */,
+				20C2E23322C89C9700E1D188 /* InstagramViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		842CC01452B6B7FDD065723F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13F8D7137EB31AF055850C58 /* Pods-Jamminim-Project.debug.xcconfig */,
+				689D8A2A1136466111A2EC6C /* Pods-Jamminim-Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C2E21922C89A8B00E1D188 /* Jamminim-Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C2E22C22C89A8B00E1D188 /* Build configuration list for PBXNativeTarget "Jamminim-Project" */;
+			buildPhases = (
+				561AF8B8C44DAEFF26D10C96 /* [CP] Check Pods Manifest.lock */,
+				20C2E21622C89A8B00E1D188 /* Sources */,
+				20C2E21722C89A8B00E1D188 /* Frameworks */,
+				20C2E21822C89A8B00E1D188 /* Resources */,
+				12408AD1023B469B5A35123F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jamminim-Project";
+			productName = "Jamminim-Project";
+			productReference = 20C2E21A22C89A8B00E1D188 /* Jamminim-Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C2E21222C89A8B00E1D188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = VincentGeranium;
+				TargetAttributes = {
+					20C2E21922C89A8B00E1D188 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 20C2E21522C89A8B00E1D188 /* Build configuration list for PBXProject "Jamminim-Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C2E21122C89A8B00E1D188;
+			productRefGroup = 20C2E21B22C89A8B00E1D188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C2E21922C89A8B00E1D188 /* Jamminim-Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C2E21822C89A8B00E1D188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C2E22822C89A8B00E1D188 /* LaunchScreen.storyboard in Resources */,
+				20C2E22522C89A8B00E1D188 /* Assets.xcassets in Resources */,
+				20C2E22322C89A8B00E1D188 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12408AD1023B469B5A35123F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jamminim-Project/Pods-Jamminim-Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jamminim-Project/Pods-Jamminim-Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jamminim-Project/Pods-Jamminim-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		561AF8B8C44DAEFF26D10C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jamminim-Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C2E21622C89A8B00E1D188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C2E23122C89C5D00E1D188 /* MainViewController.swift in Sources */,
+				20C2E23422C89C9700E1D188 /* InstagramViewController.swift in Sources */,
+				20C2E21E22C89A8B00E1D188 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20C2E22122C89A8B00E1D188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C2E22222C89A8B00E1D188 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20C2E22622C89A8B00E1D188 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C2E22722C89A8B00E1D188 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20C2E22A22C89A8B00E1D188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20C2E22B22C89A8B00E1D188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20C2E22D22C89A8B00E1D188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F8D7137EB31AF055850C58 /* Pods-Jamminim-Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64WAG22Y2J;
+				INFOPLIST_FILE = "Jamminim-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentGeranium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20C2E22E22C89A8B00E1D188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689D8A2A1136466111A2EC6C /* Pods-Jamminim-Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64WAG22Y2J;
+				INFOPLIST_FILE = "Jamminim-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentGeranium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C2E21522C89A8B00E1D188 /* Build configuration list for PBXProject "Jamminim-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C2E22A22C89A8B00E1D188 /* Debug */,
+				20C2E22B22C89A8B00E1D188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C2E22C22C89A8B00E1D188 /* Build configuration list for PBXNativeTarget "Jamminim-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C2E22D22C89A8B00E1D188 /* Debug */,
+				20C2E22E22C89A8B00E1D188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20C2E21222C89A8B00E1D188 /* Project object */;
+}
