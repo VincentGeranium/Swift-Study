@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  2019-08-19-GridStyleCollectionViewExample
+//  2019-08-19-gridStyleCollectionViewExample
 //
 //  Created by 김광준 on 19/08/2019.
 //  Copyright © 2019 VincentGeranium. All rights reserved.
@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow.init(frame: UIScreen.main.bounds)
         
-        let mainVC = MainCollectionViewController()
+        let mainVC = MainViewController()
         
         window?.rootViewController = mainVC
         
@@ -26,9 +26,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-
-  
-
-
 }
 

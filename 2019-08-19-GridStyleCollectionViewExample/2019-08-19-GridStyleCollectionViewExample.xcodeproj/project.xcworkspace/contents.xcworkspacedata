@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:2019-08-19-GridStyleCollectionViewExample.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

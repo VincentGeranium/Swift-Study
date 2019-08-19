@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20C433CD2309A3810005A831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C433CC2309A3810005A831 /* AppDelegate.swift */; };
-		20C433D42309A3810005A831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C433D32309A3810005A831 /* Assets.xcassets */; };
-		20C433D72309A3810005A831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C433D52309A3810005A831 /* LaunchScreen.storyboard */; };
-		20C433DF2309A3C50005A831 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C433DE2309A3C50005A831 /* MainCollectionViewController.swift */; };
-		20C433E12309A5550005A831 /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C433E02309A5550005A831 /* ImageCard.swift */; };
-		20C433E3230A577B0005A831 /* CollectionViewMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C433E2230A577B0005A831 /* CollectionViewMetric.swift */; };
+		20C433F1230A6D650005A831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C433F0230A6D650005A831 /* AppDelegate.swift */; };
+		20C433F8230A6D660005A831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C433F7230A6D660005A831 /* Assets.xcassets */; };
+		20C433FB230A6D660005A831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C433F9230A6D660005A831 /* LaunchScreen.storyboard */; };
+		20C43403230A6D920005A831 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C43402230A6D920005A831 /* MainViewController.swift */; };
+		20C43409230A724E0005A831 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C43408230A724E0005A831 /* MainView.swift */; };
+		20C4340B230A749C0005A831 /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4340A230A749C0005A831 /* ImageCard.swift */; };
+		20C4340D230A76EE0005A831 /* CollectionViewMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4340C230A76EE0005A831 /* CollectionViewMetric.swift */; };
+		20C4340F230A7B000005A831 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4340E230A7B000005A831 /* MainCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20C433C92309A3810005A831 /* 2019-08-19-GridStyleCollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2019-08-19-GridStyleCollectionViewExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20C433CC2309A3810005A831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20C433D32309A3810005A831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20C433D62309A3810005A831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		20C433D82309A3810005A831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C433DE2309A3C50005A831 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
-		20C433E02309A5550005A831 /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
-		20C433E2230A577B0005A831 /* CollectionViewMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewMetric.swift; sourceTree = "<group>"; };
+		20C433ED230A6D650005A831 /* 2019-08-19-gridStyleCollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2019-08-19-gridStyleCollectionViewExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C433F0230A6D650005A831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20C433F7230A6D660005A831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20C433FA230A6D660005A831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20C433FC230A6D660005A831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C43402230A6D920005A831 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		20C43408230A724E0005A831 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		20C4340A230A749C0005A831 /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
+		20C4340C230A76EE0005A831 /* CollectionViewMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewMetric.swift; sourceTree = "<group>"; };
+		20C4340E230A7B000005A831 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20C433C62309A3810005A831 /* Frameworks */ = {
+		20C433EA230A6D650005A831 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +41,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20C433C02309A3800005A831 = {
+		20C433E4230A6D650005A831 = {
 			isa = PBXGroup;
 			children = (
-				20C433CB2309A3810005A831 /* 2019-08-19-GridStyleCollectionViewExample */,
-				20C433CA2309A3810005A831 /* Products */,
+				20C433EF230A6D650005A831 /* 2019-08-19-gridStyleCollectionViewExample */,
+				20C433EE230A6D650005A831 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		20C433CA2309A3810005A831 /* Products */ = {
+		20C433EE230A6D650005A831 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20C433C92309A3810005A831 /* 2019-08-19-GridStyleCollectionViewExample.app */,
+				20C433ED230A6D650005A831 /* 2019-08-19-gridStyleCollectionViewExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20C433CB2309A3810005A831 /* 2019-08-19-GridStyleCollectionViewExample */ = {
+		20C433EF230A6D650005A831 /* 2019-08-19-gridStyleCollectionViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				20C433CC2309A3810005A831 /* AppDelegate.swift */,
-				20C433DE2309A3C50005A831 /* MainCollectionViewController.swift */,
-				20C433E2230A577B0005A831 /* CollectionViewMetric.swift */,
-				20C433E02309A5550005A831 /* ImageCard.swift */,
-				20C433D32309A3810005A831 /* Assets.xcassets */,
-				20C433D52309A3810005A831 /* LaunchScreen.storyboard */,
-				20C433D82309A3810005A831 /* Info.plist */,
+				20C433F0230A6D650005A831 /* AppDelegate.swift */,
+				20C433F7230A6D660005A831 /* Assets.xcassets */,
+				20C433F9230A6D660005A831 /* LaunchScreen.storyboard */,
+				20C433FC230A6D660005A831 /* Info.plist */,
+				20C43405230A6E6F0005A831 /* Model */,
+				20C43406230A6E780005A831 /* View */,
+				20C43404230A6E670005A831 /* Controller */,
 			);
-			path = "2019-08-19-GridStyleCollectionViewExample";
+			path = "2019-08-19-gridStyleCollectionViewExample";
+			sourceTree = "<group>";
+		};
+		20C43404230A6E670005A831 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20C43402230A6D920005A831 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20C43405230A6E6F0005A831 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20C4340A230A749C0005A831 /* ImageCard.swift */,
+				20C4340C230A76EE0005A831 /* CollectionViewMetric.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20C43406230A6E780005A831 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20C43408230A724E0005A831 /* MainView.swift */,
+				20C4340E230A7B000005A831 /* MainCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20C433C82309A3810005A831 /* 2019-08-19-GridStyleCollectionViewExample */ = {
+		20C433EC230A6D650005A831 /* 2019-08-19-gridStyleCollectionViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20C433DB2309A3810005A831 /* Build configuration list for PBXNativeTarget "2019-08-19-GridStyleCollectionViewExample" */;
+			buildConfigurationList = 20C433FF230A6D660005A831 /* Build configuration list for PBXNativeTarget "2019-08-19-gridStyleCollectionViewExample" */;
 			buildPhases = (
-				20C433C52309A3810005A831 /* Sources */,
-				20C433C62309A3810005A831 /* Frameworks */,
-				20C433C72309A3810005A831 /* Resources */,
+				20C433E9230A6D650005A831 /* Sources */,
+				20C433EA230A6D650005A831 /* Frameworks */,
+				20C433EB230A6D650005A831 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "2019-08-19-GridStyleCollectionViewExample";
-			productName = "2019-08-19-GridStyleCollectionViewExample";
-			productReference = 20C433C92309A3810005A831 /* 2019-08-19-GridStyleCollectionViewExample.app */;
+			name = "2019-08-19-gridStyleCollectionViewExample";
+			productName = "2019-08-19-gridStyleCollectionViewExample";
+			productReference = 20C433ED230A6D650005A831 /* 2019-08-19-gridStyleCollectionViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		20C433C12309A3800005A831 /* Project object */ = {
+		20C433E5230A6D650005A831 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = VincentGeranium;
 				TargetAttributes = {
-					20C433C82309A3810005A831 = {
+					20C433EC230A6D650005A831 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 20C433C42309A3800005A831 /* Build configuration list for PBXProject "2019-08-19-GridStyleCollectionViewExample" */;
+			buildConfigurationList = 20C433E8230A6D650005A831 /* Build configuration list for PBXProject "2019-08-19-gridStyleCollectionViewExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,47 +140,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 20C433C02309A3800005A831;
-			productRefGroup = 20C433CA2309A3810005A831 /* Products */;
+			mainGroup = 20C433E4230A6D650005A831;
+			productRefGroup = 20C433EE230A6D650005A831 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20C433C82309A3810005A831 /* 2019-08-19-GridStyleCollectionViewExample */,
+				20C433EC230A6D650005A831 /* 2019-08-19-gridStyleCollectionViewExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20C433C72309A3810005A831 /* Resources */ = {
+		20C433EB230A6D650005A831 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C433D72309A3810005A831 /* LaunchScreen.storyboard in Resources */,
-				20C433D42309A3810005A831 /* Assets.xcassets in Resources */,
+				20C433FB230A6D660005A831 /* LaunchScreen.storyboard in Resources */,
+				20C433F8230A6D660005A831 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20C433C52309A3810005A831 /* Sources */ = {
+		20C433E9230A6D650005A831 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C433E3230A577B0005A831 /* CollectionViewMetric.swift in Sources */,
-				20C433CD2309A3810005A831 /* AppDelegate.swift in Sources */,
-				20C433E12309A5550005A831 /* ImageCard.swift in Sources */,
-				20C433DF2309A3C50005A831 /* MainCollectionViewController.swift in Sources */,
+				20C433F1230A6D650005A831 /* AppDelegate.swift in Sources */,
+				20C4340F230A7B000005A831 /* MainCollectionViewCell.swift in Sources */,
+				20C4340D230A76EE0005A831 /* CollectionViewMetric.swift in Sources */,
+				20C43409230A724E0005A831 /* MainView.swift in Sources */,
+				20C43403230A6D920005A831 /* MainViewController.swift in Sources */,
+				20C4340B230A749C0005A831 /* ImageCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		20C433D52309A3810005A831 /* LaunchScreen.storyboard */ = {
+		20C433F9230A6D660005A831 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				20C433D62309A3810005A831 /* Base */,
+				20C433FA230A6D660005A831 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -158,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		20C433D92309A3810005A831 /* Debug */ = {
+		20C433FD230A6D660005A831 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		20C433DA2309A3810005A831 /* Release */ = {
+		20C433FE230A6D660005A831 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,34 +306,34 @@
 			};
 			name = Release;
 		};
-		20C433DC2309A3810005A831 /* Debug */ = {
+		20C43400230A6D660005A831 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "2019-08-19-GridStyleCollectionViewExample/Info.plist";
+				INFOPLIST_FILE = "2019-08-19-gridStyleCollectionViewExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.VincentGeranium.-019-08-19-GridStyleCollectionViewExample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VincentGeranium.-019-08-19-gridStyleCollectionViewExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		20C433DD2309A3810005A831 /* Release */ = {
+		20C43401230A6D660005A831 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "2019-08-19-GridStyleCollectionViewExample/Info.plist";
+				INFOPLIST_FILE = "2019-08-19-gridStyleCollectionViewExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.VincentGeranium.-019-08-19-GridStyleCollectionViewExample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VincentGeranium.-019-08-19-gridStyleCollectionViewExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,25 +343,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20C433C42309A3800005A831 /* Build configuration list for PBXProject "2019-08-19-GridStyleCollectionViewExample" */ = {
+		20C433E8230A6D650005A831 /* Build configuration list for PBXProject "2019-08-19-gridStyleCollectionViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20C433D92309A3810005A831 /* Debug */,
-				20C433DA2309A3810005A831 /* Release */,
+				20C433FD230A6D660005A831 /* Debug */,
+				20C433FE230A6D660005A831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20C433DB2309A3810005A831 /* Build configuration list for PBXNativeTarget "2019-08-19-GridStyleCollectionViewExample" */ = {
+		20C433FF230A6D660005A831 /* Build configuration list for PBXNativeTarget "2019-08-19-gridStyleCollectionViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20C433DC2309A3810005A831 /* Debug */,
-				20C433DD2309A3810005A831 /* Release */,
+				20C43400230A6D660005A831 /* Debug */,
+				20C43401230A6D660005A831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 20C433C12309A3800005A831 /* Project object */;
+	rootObject = 20C433E5230A6D650005A831 /* Project object */;
 }
