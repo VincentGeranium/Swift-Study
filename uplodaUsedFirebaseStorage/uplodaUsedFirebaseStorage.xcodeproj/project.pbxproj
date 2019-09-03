@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175E2061221B9BA0EA468C80 /* Pods_uplodaUsedFirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79430F1560A1825DF449EC98 /* Pods_uplodaUsedFirebaseStorage.framework */; };
+		2034A7E223152638006F0BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034A7E123152638006F0BF5 /* AppDelegate.swift */; };
+		2034A7E723152638006F0BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2034A7E523152638006F0BF5 /* Main.storyboard */; };
+		2034A7E923152638006F0BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2034A7E823152638006F0BF5 /* Assets.xcassets */; };
+		2034A7EC23152638006F0BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2034A7EA23152638006F0BF5 /* LaunchScreen.storyboard */; };
+		203E7F0F23178CBC00F7734D /* CustomAlbumError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7F0E23178CBC00F7734D /* CustomAlbumError.swift */; };
+		203E7F1123178F2C00F7734D /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E7F1023178F2C00F7734D /* Error.swift */; };
+		204A7CDF2315703F00E4CB41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 204A7CDE2315703F00E4CB41 /* GoogleService-Info.plist */; };
+		204A7CE223162F4200E4CB41 /* MyKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A7CE123162F4200E4CB41 /* MyKeys.swift */; };
+		204A7CE42316317C00E4CB41 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A7CE32316317C00E4CB41 /* RootViewController.swift */; };
+		20F98FE02316C07C009E26A8 /* CustomAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F98FDF2316C07C009E26A8 /* CustomAlbum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2034A7DE23152638006F0BF5 /* uplodaUsedFirebaseStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uplodaUsedFirebaseStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2034A7E123152638006F0BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2034A7E623152638006F0BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2034A7E823152638006F0BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2034A7EB23152638006F0BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2034A7ED23152638006F0BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203E7F0E23178CBC00F7734D /* CustomAlbumError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlbumError.swift; sourceTree = "<group>"; };
+		203E7F1023178F2C00F7734D /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		204A7CDE2315703F00E4CB41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		204A7CE123162F4200E4CB41 /* MyKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKeys.swift; sourceTree = "<group>"; };
+		204A7CE32316317C00E4CB41 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		20F98FDF2316C07C009E26A8 /* CustomAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlbum.swift; sourceTree = "<group>"; };
+		79430F1560A1825DF449EC98 /* Pods_uplodaUsedFirebaseStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uplodaUsedFirebaseStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F849F86CC0E75D3D62968C /* Pods-uplodaUsedFirebaseStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uplodaUsedFirebaseStorage.debug.xcconfig"; path = "Target Support Files/Pods-uplodaUsedFirebaseStorage/Pods-uplodaUsedFirebaseStorage.debug.xcconfig"; sourceTree = "<group>"; };
+		E31C1B88A497CB77335E71A9 /* Pods-uplodaUsedFirebaseStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uplodaUsedFirebaseStorage.release.xcconfig"; path = "Target Support Files/Pods-uplodaUsedFirebaseStorage/Pods-uplodaUsedFirebaseStorage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2034A7DB23152638006F0BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175E2061221B9BA0EA468C80 /* Pods_uplodaUsedFirebaseStorage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2034A7D523152638006F0BF5 = {
+			isa = PBXGroup;
+			children = (
+				204A7CE52316318200E4CB41 /* VC */,
+				204A7CE023162F2300E4CB41 /* Model */,
+				2034A7E023152638006F0BF5 /* uplodaUsedFirebaseStorage */,
+				2034A7DF23152638006F0BF5 /* Products */,
+				C2DA0B891E6B5BDB384D00E6 /* Pods */,
+				5F472530C24703065592A8B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2034A7DF23152638006F0BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2034A7DE23152638006F0BF5 /* uplodaUsedFirebaseStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2034A7E023152638006F0BF5 /* uplodaUsedFirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				2034A7E123152638006F0BF5 /* AppDelegate.swift */,
+				2034A7E523152638006F0BF5 /* Main.storyboard */,
+				204A7CDE2315703F00E4CB41 /* GoogleService-Info.plist */,
+				2034A7E823152638006F0BF5 /* Assets.xcassets */,
+				2034A7EA23152638006F0BF5 /* LaunchScreen.storyboard */,
+				2034A7ED23152638006F0BF5 /* Info.plist */,
+			);
+			path = uplodaUsedFirebaseStorage;
+			sourceTree = "<group>";
+		};
+		204A7CE023162F2300E4CB41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				204A7CE123162F4200E4CB41 /* MyKeys.swift */,
+				20F98FDF2316C07C009E26A8 /* CustomAlbum.swift */,
+				203E7F1023178F2C00F7734D /* Error.swift */,
+				203E7F0E23178CBC00F7734D /* CustomAlbumError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		204A7CE52316318200E4CB41 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				204A7CE32316317C00E4CB41 /* RootViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		5F472530C24703065592A8B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79430F1560A1825DF449EC98 /* Pods_uplodaUsedFirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2DA0B891E6B5BDB384D00E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8F849F86CC0E75D3D62968C /* Pods-uplodaUsedFirebaseStorage.debug.xcconfig */,
+				E31C1B88A497CB77335E71A9 /* Pods-uplodaUsedFirebaseStorage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2034A7DD23152638006F0BF5 /* uplodaUsedFirebaseStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2034A7F023152638006F0BF5 /* Build configuration list for PBXNativeTarget "uplodaUsedFirebaseStorage" */;
+			buildPhases = (
+				A3A5F954E2F1E3DD5F24022F /* [CP] Check Pods Manifest.lock */,
+				2034A7DA23152638006F0BF5 /* Sources */,
+				2034A7DB23152638006F0BF5 /* Frameworks */,
+				2034A7DC23152638006F0BF5 /* Resources */,
+				505254F491CD5BF302511815 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uplodaUsedFirebaseStorage;
+			productName = uplodaUsedFirebaseStorage;
+			productReference = 2034A7DE23152638006F0BF5 /* uplodaUsedFirebaseStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2034A7D623152638006F0BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = VincentGeranium;
+				TargetAttributes = {
+					2034A7DD23152638006F0BF5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2034A7D923152638006F0BF5 /* Build configuration list for PBXProject "uplodaUsedFirebaseStorage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2034A7D523152638006F0BF5;
+			productRefGroup = 2034A7DF23152638006F0BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2034A7DD23152638006F0BF5 /* uplodaUsedFirebaseStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2034A7DC23152638006F0BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2034A7EC23152638006F0BF5 /* LaunchScreen.storyboard in Resources */,
+				2034A7E923152638006F0BF5 /* Assets.xcassets in Resources */,
+				204A7CDF2315703F00E4CB41 /* GoogleService-Info.plist in Resources */,
+				2034A7E723152638006F0BF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		505254F491CD5BF302511815 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uplodaUsedFirebaseStorage/Pods-uplodaUsedFirebaseStorage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uplodaUsedFirebaseStorage/Pods-uplodaUsedFirebaseStorage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uplodaUsedFirebaseStorage/Pods-uplodaUsedFirebaseStorage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A5F954E2F1E3DD5F24022F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uplodaUsedFirebaseStorage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2034A7DA23152638006F0BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204A7CE223162F4200E4CB41 /* MyKeys.swift in Sources */,
+				20F98FE02316C07C009E26A8 /* CustomAlbum.swift in Sources */,
+				204A7CE42316317C00E4CB41 /* RootViewController.swift in Sources */,
+				2034A7E223152638006F0BF5 /* AppDelegate.swift in Sources */,
+				203E7F1123178F2C00F7734D /* Error.swift in Sources */,
+				203E7F0F23178CBC00F7734D /* CustomAlbumError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2034A7E523152638006F0BF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2034A7E623152638006F0BF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2034A7EA23152638006F0BF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2034A7EB23152638006F0BF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2034A7EE23152638006F0BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2034A7EF23152638006F0BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2034A7F123152638006F0BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F849F86CC0E75D3D62968C /* Pods-uplodaUsedFirebaseStorage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64WAG22Y2J;
+				INFOPLIST_FILE = uplodaUsedFirebaseStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentGeranium.uplodaUsedFirebaseStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2034A7F223152638006F0BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31C1B88A497CB77335E71A9 /* Pods-uplodaUsedFirebaseStorage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64WAG22Y2J;
+				INFOPLIST_FILE = uplodaUsedFirebaseStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VincentGeranium.uplodaUsedFirebaseStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2034A7D923152638006F0BF5 /* Build configuration list for PBXProject "uplodaUsedFirebaseStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2034A7EE23152638006F0BF5 /* Debug */,
+				2034A7EF23152638006F0BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2034A7F023152638006F0BF5 /* Build configuration list for PBXNativeTarget "uplodaUsedFirebaseStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2034A7F123152638006F0BF5 /* Debug */,
+				2034A7F223152638006F0BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2034A7D623152638006F0BF5 /* Project object */;
+}

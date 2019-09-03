@@ -1,0 +1,6 @@
+framework module Pods_uplodaUsedFirebaseStorage {
+  umbrella header "Pods-uplodaUsedFirebaseStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}
