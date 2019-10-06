@@ -172,3 +172,96 @@ var jane = ComputedPerson(name: "Jane Apple")
 
 // 그러므로 인스턴스 초기화때 연산 프로퍼티인 computedFullName을 통해 초기화 할 수 없고 진짜 값이 저장되는 name을 파라미터로 사용한다.
 
+
+// 프로토콜에서 gettable만 필요로 하는 경우, 모든 종류의 프로퍼티에서 요구사항을 충족시킬 수 있으며 만약 필요하다면 settable이 될 수도 있다
+
+// 즉, 필요시 settable(쓰기)가 될 수 있다는 것
+
+// 4. 연산프로퍼티 - gettable/settable
+
+protocol GetAndSetFullyNamed {
+    
+    var fullName: String { get }
+    
+}
+
+struct GetAndSetPerson: GetAndSetFullyNamed {
+    
+    var name: String
+    
+    var fullName: String {
+        
+        get {
+            return name
+        }
+        
+        set {
+            
+            name = newValue
+            
+        }
+    }
+}
+
+var back = Person(fullName: "back jong-won")
+
+print(back)
+
+back.fullName = "back ji-young"
+
+print(back)
+
+// GetAndSetFullyNamed 프로토콜에서는 { get }으로만 요구하였지만 back의 fullName을 바꿔도 오류가 나지 않는다
+
+// 즉, settable로 가능하다는 뜻
+
+// 프로토콜이 gettable 및 settable 프로퍼티를 요구하면, 해당 프로퍼티 요구사항은 상수 저장 프로퍼티 또는 읽기 전용 연산 프로퍼티로 충족되서는 안된다.
+
+// 프로토콜이 gettable 및 settable(읽기 및 쓰기) 프로퍼티를 요구하면
+
+protocol needGetAndSetFullyNamed {
+    var fullName: String { get set }
+}
+
+// 위와 같이 해당 프로퍼티 요구사항은 상수 저장 프로퍼티(let으로 선언하는것) 또는 읽기 전용 연산 프로퍼티(Read-Only)로 충족(선언)되어서는 안된다
+
+protocol SecondGetAndSetFullyNamed {
+    var fullName: String { get set }
+}
+
+struct SecondGetAndSetPerson: SecondGetAndSetFullyNamed  {
+    var fullName: String
+    
+//    let fullName: String -> Error
+    
+//    Error note: protocol requires property 'fullName' with type 'String'; do you want to add a stub? var fullName: String { get set }
+
+}
+
+// let으로 선언하자 오류가 난다 -> 위의 코드에서 상수 저장 프로퍼티로 했을때는 가능했는데 그때 상속받은 프로토콜에는 { get } 만 있어서 가능했다
+
+// 그러니 지금은 { get set }을 요구 하므로 let으로 선언하는것은 불가능하다
+
+// 프로토콜에서 set을 "요구" 했다는 것은 이 fullName의 값을 다은 값으로 설정할 수 있다는 말인데, let으로 선언하면 값을 바꿀 수 없다, 그러므로 에러가 난다
+
+// SecondGetAndSetPerson은 SecondGetAndSetFullyNamed 프로토콜을 "준수"하고 있지 않다고 오류가 남
+
+// 읽기 전용 연산 프로퍼티로 해보기
+
+protocol ReadOnlyFullyNamed {
+    var fullName: String { get set }
+}
+
+struct ReadOnlyPerson: ReadOnlyFullyNamed {
+    var fullName: String
+    
+    var name: String
+    
+//    var fullName: String {
+//        return name
+//    } -> Error
+//    Error note: protocol requires property 'fullName' with type 'String'; do you want to add a stub? -> var fullName: String { get set }
+
+}
+
+// 프로토콜이 set을 요구했는데, 읽기전용은 안됨 그래서 오류
