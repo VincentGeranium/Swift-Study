@@ -139,3 +139,90 @@ class MutatingClass: MutatingProtocol {
     
 }
 
+
+// 3. Initializer Requirements (프로토콜의 이니셜라이저 요구사항)
+
+// 프로토콜은 프로토콜을 준수하려는 타입(conforming type)에게 특정한 이니셜라이저를 구현하도록 요구할 수 있다
+
+// 프로토콜에서, 이러한 이니셜라이저는 일반 이니셜라이저와 똑같이 작성하지만 중괄호나 본문은 작성하지 않는다
+
+protocol InitilizerProtocol {
+    
+    init(someParameter: Int)
+    
+}
+
+
+// 4. Class Implementation of Protocol Initializer Requirements
+
+// 해당 프로토콜을 준수하는 클래스에서 프로토콜에서 요구하는 이니셜라이저 요구사항을 구현 할 수 있다
+
+// designated init 또는 convenience init으로 구현 가능 하다
+
+// 이 두가지 경우 모두 required라는 modifier를 표시해야한다
+
+protocol ImplementationProtocolInit {
+    
+    init(someParameter: Int)
+    
+}
+
+class ImplementationProtocolInitClass: ImplementationProtocolInit {
+    
+    required init(someParameter: Int) {
+        
+        // initializer implementation goes here
+        
+    }
+}
+
+// 위의 경우 "클래스"이므로 required를 써준다
+
+// 구조체인 경우는 "required"가 필요없다.
+
+struct ImplementationStruct: ImplementationProtocolInit {
+    
+    init(someParameter: Int) {
+        // initializer implementation gese here
+    }
+}
+
+// "클래스"에서는 required를 init앞에 써줘야하는 이유
+
+// required를 사용하면 해당 프로토콜을 준수하는 클래스의 모든 하위클래스들 역시 이니셜라이저 요구사항을 구현함을 보장(ensure) 받을 수 있다
+
+// 만약 클래스가 "final" 수정자로 표시되어있다면, 프로토콜 이니셜라이저 구현을  "required" 수정자를 표시할 필요 없다
+// 왜냐하면 final 클래스는 서브클래스화 할 수 없기 때문이다.
+
+// final 수정자는 간단하게 말하면 재정의(override)를 막아주게하는 수정자이다
+
+// 이 final은 메소드, 프로퍼티, 클래스 등등에 붙일 수 있다
+
+// 만약 서브클래스가 슈퍼클래스의 designated 이니셜라이저를 재정의(override)하고, 또한 프로토콜에서 요구하는 이니셜라이저와 일치하는 경우에는 이니셜라이저를 required override로 표시
+
+protocol SameInitProtocol {
+    init()
+}
+
+class SameInitSuperClass {
+    
+    init() {
+        // initializer implementation gose here
+    }
+}
+
+class SameInitSubClass: SameInitSuperClass, SameInitProtocol {
+    // "required" from SameInitProtocol conformance. "override" from SameInitSuperClass
+    
+    required override init() {
+        // initializer implementation gose here
+    }
+}
+
+// 5. Failable Initializer Requirements
+
+// 프로토콜은 해당 프로토콜을 준수하는 타입들에게 failable 이니셜라이저를 정의하도록 요구할 수 있다
+
+// failable 이니셜라이저 요구사항은 해당 프로토콜을 준수하는 타입에서 failable 또는 nonfailable 이니셜라이져로 만족시킬수있다
+
+// nonfailable 이니셜라이져 요구사항은 nonfailable 이니셜러아저 또는 암시적(implicitly)으로 언래핑된 failable 이니셜라이저로 만족시킬 수 있다
