@@ -94,4 +94,48 @@ class LinearCongruentialGenerator: RandomNumberGenerator {
 // 2. Mutating Method Requirements
 
 // 인스턴스에 속한 메소드를 수정(또는 변경) 할 때가 있다
+
 // 예를들어 Value Type(=> 구조체 및 열거형)의 메소드의 경우 func 키워드 앞에 "mutating" 키워드를 두어 해당 메소드가 속한 인스턴스와 해당 인스턴스의 모든 프로퍼티를 수정할 수 있다
+
+// 프로토콜을 채택하는 모든 타입의 인스턴스를 변경하기 위한 프로토콜 인스턴스 메소드 요구사항을 정의하려면, 메소드에 mutating 키워드를 프로토콜의 정의의 일부로 표시한다
+
+// 이로 인하여 구조체와 열거형에서 프로토콜을 채택하고, 해당 메소드 요구사항을 충족시킬 수 있다
+
+protocol MutatingProtocol {
+    
+    mutating func SomeMethod(_ num: Int)
+    
+}
+
+struct MutatingStruct: MutatingProtocol {
+    
+    var x = 0
+    mutating func SomeMethod(_ num: Int) {
+        
+        x += num
+        
+    }
+    
+}
+
+// 구조체와 열거형은 Value Type이기 때문에 원래는 메소드 안에서 프로퍼티의 값을 수정하지 못한다
+
+// 만약에 프로토콜을 채택하는 곳이 열거형과 구조체인데, 프로퍼티 변경이 필요하다!! 그렇다면 프로토콜에서 애초에 mutating으로 메소드를 만들기로 규약을 정한것이다
+
+// 구조체나 열거형은 해당 프로토콜을 채택하면, mutating 키워드와 함꼐 메소드를 작성해주면 된다
+
+// 하지만, 프로토콜 인스턴스 메소드 요구사항을 mutating으로 하면, 클래스에 해당 메소드를 구현할 때, mutating 키워드를 쓸 필요가없다
+
+// mutating 키워드는 구조체와 열거형에서만 사용된다
+
+// 애초에 클래스는 Reference type, 그러므로 메소드 내에서 프로퍼티들의 값을 변경하는 것이 가능하다
+
+class MutatingClass: MutatingProtocol {
+    var x = 0
+    
+    func SomeMethod(_ num: Int) {
+        x += num
+    }
+    
+}
+
