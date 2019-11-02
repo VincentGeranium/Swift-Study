@@ -1,0 +1,6 @@
+framework module Pods_2019_10_25_UIImagePickerExample_rebeloper {
+  umbrella header "Pods-2019-10-25-UIImagePickerExample-rebeloper-umbrella.h"
+
+  export *
+  module * { export * }
+}
