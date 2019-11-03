@@ -1,0 +1,6 @@
+framework module Pods_2019_11_03_About_GCD_Example {
+  umbrella header "Pods-2019-11-03-About-GCD-Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
