@@ -46,6 +46,7 @@ let immutable: Sample = Sample()
 //immutable.immutableProperty = 200
 
 // MARK: - 타입 프로퍼티 및 메서드
+
 // 타입 프로퍼티는 타입 자체에서 사용이 가능한 프로퍼티이며, 타입 메서드는 타입 자체에서 사용이 가능한 메서드를 뜻한다
 
 Sample.typeMethod()
