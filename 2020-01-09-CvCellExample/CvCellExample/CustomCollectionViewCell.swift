@@ -26,7 +26,7 @@ class CustomCollectionViewCell: UICollectionViewCell {
         iv.contentMode = .scaleAspectFill
         return iv
     }()
-    
+//    #imageLiteral(resourceName: "nightStreet")
     override init(frame: CGRect) {
         super.init(frame: frame)
         
