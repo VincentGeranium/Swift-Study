@@ -14,6 +14,7 @@
 		20DE3C802440BA4A0018E5F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DE3C7F2440BA4A0018E5F4 /* Assets.xcassets */; };
 		20DE3C832440BA4A0018E5F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DE3C812440BA4A0018E5F4 /* LaunchScreen.storyboard */; };
 		20DE3C8B2440BAA00018E5F4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE3C8A2440BAA00018E5F4 /* ListViewController.swift */; };
+		20EFE0DA24432CDD00E4E27C /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EFE0D924432CDD00E4E27C /* MovieVO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		20DE3C822440BA4A0018E5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20DE3C842440BA4A0018E5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20DE3C8A2440BAA00018E5F4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		20EFE0D924432CDD00E4E27C /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				20DE3C782440BA4A0018E5F4 /* SceneDelegate.swift */,
 				20DE3C7A2440BA4A0018E5F4 /* ViewController.swift */,
 				20DE3C7C2440BA4A0018E5F4 /* Main.storyboard */,
+				20EFE0D924432CDD00E4E27C /* MovieVO.swift */,
 				20DE3C8A2440BAA00018E5F4 /* ListViewController.swift */,
 				20DE3C7F2440BA4A0018E5F4 /* Assets.xcassets */,
 				20DE3C812440BA4A0018E5F4 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				20DE3C772440BA4A0018E5F4 /* AppDelegate.swift in Sources */,
 				20DE3C8B2440BAA00018E5F4 /* ListViewController.swift in Sources */,
 				20DE3C792440BA4A0018E5F4 /* SceneDelegate.swift in Sources */,
+				20EFE0DA24432CDD00E4E27C /* MovieVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
