@@ -17,6 +17,7 @@ class ListViewController: UITableViewController {
         ("말할 수 없는 비밀", "여기서 너에게까지 다섯 걸음.", "2015-05-07", 9.19),
     ]
     
+    // 테이블 뷰를 구성할 리스트 데이터
     lazy var list: [MovieVO] = {
         var datalist = [MovieVO]()
         for (title, desc, opendate, rating) in self.dataset {
