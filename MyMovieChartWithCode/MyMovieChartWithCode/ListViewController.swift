@@ -76,6 +76,7 @@ extension ListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // 주어진 행에 맞는 데이터 소스를 읽어온다.
         let row = self.list[indexPath.row]
+        // 테이블 셀 객체를 직접 생성하는 대신 큐로부터 가져온다.
         guard let cell = tableView.dequeueReusableCell(withIdentifier: MovieTableViewCell.cellID, for: indexPath) as? MovieTableViewCell else {
             return UITableViewCell()
         }
